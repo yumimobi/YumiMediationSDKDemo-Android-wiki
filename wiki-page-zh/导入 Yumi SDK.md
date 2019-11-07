@@ -66,7 +66,7 @@ dependencies {
 
 > 最新版本号，请[查看](https://github.com/yumimobi/YumiMediationSDKDemo-Android#latest-version)
 
-> 聚合平台Adapter详细说明，请[查看](./YumiMediationSDK%20-%20Mediation%20List(zh-cn)%20.md)
+> 聚合平台Adapter详细说明，请[查看https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/tree/master/docs/YumiMediationSDK%20-%20Mediation%20List(zh-cn)%20.md)
 
 添加可选权限，可选权限可以提升广告填充率及广告转化效果。
 
@@ -203,4 +203,6 @@ google_play_service 工程非必加，部分平台广告需要 google_play_servi
 -keep class com.playableads.**{*;}
 ```
 
-<b>重要提示：</b>如果你有接入其他广告平台，请根据我们提供的三方平台文档设置三方平台混淆配置，请[查看](./YumiMediationSDK%20-%20Mediation%20List(zh-cn)%20.md)。
+<b>重要提示：</b>如果你有接入其他广告平台，请根据我们提供的三方平台文档设置三方平台混淆配置，请[查看](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/tree/master/docs/YumiMediationSDK%20-%20Mediation%20List(zh-cn)%20.md)。
+
+获取 [Demo]([GetDemo](https://github.com/yumimobi/YumiMediationSDKDemo-Android))

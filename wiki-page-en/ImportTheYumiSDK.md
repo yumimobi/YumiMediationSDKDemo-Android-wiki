@@ -200,3 +200,6 @@ If your project turn on minifyEnabled, add the following to the proguard file.
 -keep class com.playableads.**{*;}
 ```
 <b>Important：</b>If you integrated three-party advertising platforms, please set up a three-party platform Proguard configuration according to the three-party platform documentation we provide.[Click here](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/blob/master/docs/YumiMediationSDK%20-%20Mediation%20List(en)%20.md) 
+
+
+[GetDemo](https://github.com/yumimobi/YumiMediationSDKDemo-Android)
