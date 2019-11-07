@@ -48,4 +48,3 @@ YumiMediationSDK will pass the GDPR status set in 5.3.1 to the three-party platf
 |17|gdt|no||
 |18|ksyun|no||
 |19|oneway|no||
-

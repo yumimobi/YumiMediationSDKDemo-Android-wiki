@@ -66,9 +66,7 @@ dependencies {
 ｝
 ```
 
-> [Click here](https://github.com/yumimobi/YumiMediationSDKDemo-Android#latest-version) get latest version number. 
-
-> Platform adapter, [Click here](./YumiMediationSDK%20-%20Mediation%20List(en)%20.md) 
+> Platform adapter, [Click here](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/blob/master/docs/YumiMediationSDK%20-%20Mediation%20List(en)%20.md) 
 
 Optional permission.
 
@@ -89,7 +87,7 @@ Optional permission.
 
 Add library file to libs.
 
->[SDK Download](https://github.com/yumimobi/YumiMediationSDKDemo-Android/blob/master/docs/YumiMediationSDK%20for%20Android%20Download%20Page.md)
+>[SDK Download](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/blob/master/docs/YumiMediationSDK%20for%20Android%20Download%20Page.md)
 
 All lib files are placed in ..\YumiMobi_SDK_AndroidEclipse_Example\lib in the SDK:
 
@@ -103,7 +101,7 @@ All lib files are placed in ..\YumiMobi_SDK_AndroidEclipse_Example\lib in the SD
 
 Create libs folder under the root directory of your project,add YumiMobi_Android_vX.X.X.jar into libs.
 
-<img src="./document/image01.jpg" alt="img1">
+<img src="https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/blob/master/docs/document/image01.jpg" alt="img1">
 
 you can choose to or not to add android-support-v4.jar and/or android-support-v7-appcompat.jar into libs according to your needs. You must use the jar file provided by YUMIMOBI when you need to use v4.jar or v7.jar.
 
@@ -123,49 +121,49 @@ Registered components
 Add following in manifest.xml of your project:
 
 ```xml
-    <receiver android:name="com.yumi.android.sdk.ads.self.module.receiver.ADReceiver">
-        <intent-filter>
-            <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
-        </intent-filter>
-    </receiver>
+<receiver android:name="com.yumi.android.sdk.ads.self.module.receiver.ADReceiver">
+    <intent-filter>
+        <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+    </intent-filter>
+</receiver>
 
-    <activity
-        android:name="com.yumi.android.sdk.ads.self.activity.YumiFullScreenActivity"
-        android:configChanges="keyboardHidden|orientation|screenSize"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+<activity
+    android:name="com.yumi.android.sdk.ads.self.activity.YumiFullScreenActivity"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
-    <activity
-        android:name="com.playableads.presenter.APIAdActivity"
-        android:configChanges="keyboardHidden|orientation|screenSize"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+<activity
+    android:name="com.playableads.presenter.APIAdActivity"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
-    <activity
-        android:name="com.playableads.presenter.PlayableADActivity"
-        android:configChanges="orientation|screenSize|keyboardHidden"
-        android:hardwareAccelerated="true"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+<activity
+    android:name="com.playableads.presenter.PlayableADActivity"
+    android:configChanges="orientation|screenSize|keyboardHidden"
+    android:hardwareAccelerated="true"
+    android:screenOrientation="portrait"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
-    <activity
-        android:name="com.playableads.presenter.NativeAdLandingPageActivity"
-        android:configChanges="orientation|screenSize|keyboardHidden"
-        android:hardwareAccelerated="true"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+<activity
+    android:name="com.playableads.presenter.NativeAdLandingPageActivity"
+    android:configChanges="orientation|screenSize|keyboardHidden"
+    android:hardwareAccelerated="true"
+    android:screenOrientation="portrait"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
-    <activity
-        android:name="com.playableads.presenter.WebActivity"
-        android:configChanges="orientation|screenSize|keyboardHidden"
-        android:hardwareAccelerated="true"
-        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+<activity
+    android:name="com.playableads.presenter.WebActivity"
+    android:configChanges="orientation|screenSize|keyboardHidden"
+    android:hardwareAccelerated="true"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
-    <receiver android:name="com.playableads.PlayableReceiver">
-        <intent-filter>
-            <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
-        </intent-filter>
-    </receiver>
-        
-    <activity android:name="com.yumi.android.sdk.ads.mediation.activity.MediationTestActivity" />
+<receiver android:name="com.playableads.PlayableReceiver">
+    <intent-filter>
+        <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+    </intent-filter>
+</receiver>
+    
+<activity android:name="com.yumi.android.sdk.ads.mediation.activity.MediationTestActivity" />
 ```
 
 Add permissions 
@@ -180,7 +178,6 @@ Add permissions
 ```
 
 - Optional permission
-
 
 ```xml
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -202,4 +199,4 @@ If your project turn on minifyEnabled, add the following to the proguard file.
 -keep class com.yumi.android.sdk.ads.** { *;}
 -keep class com.playableads.**{*;}
 ```
-<b>Important：</b>If you integrated three-party advertising platforms, please set up a three-party platform Proguard configuration according to the three-party platform documentation we provide.[Click here](./YumiMediationSDK%20-%20Mediation%20List(en)%20.md) 
+<b>Important：</b>If you integrated three-party advertising platforms, please set up a three-party platform Proguard configuration according to the three-party platform documentation we provide.[Click here](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/blob/master/docs/YumiMediationSDK%20-%20Mediation%20List(en)%20.md) 

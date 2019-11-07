@@ -1,8 +1,8 @@
 # Get Started
-This document is for Android developers who want to integrate YUMIMOBI advertising SDK into their product.
+This guide is for publishers who want to monetize an Android app with Yumi Mobile Ads SDK. 
+
+Integrating the Yumi Mobile Ads SDK into an app is the first step toward displaying ads and earning revenue. Once you've integrated the SDK, you can proceed to implement one or more of the supported ad formats.
 
 ## Prerequisites
-OS: Windows, Mac, Linux <br/>
-Android SDK: > 4.4(API level 19)<br/>
-IDE: Eclipse with ADT (ADT version 23.0.4) OR Android-Studio<br />
-Java: > JDK 7
+- Android SDK > 4.4(API level 19)<br/>
+- [GetDemo](https://github.com/yumimobi/YumiMediationSDKDemo-Android.git)

@@ -44,8 +44,6 @@ interface IYumiNativeListener {
 
 ## Display ad
 
-* YumiNativeAdView class：
-
 For the YumiNativeAdView format, there is the corresponding YumiNativeAdView class. This class is a ViewGroup that publishers should use as the root for the YumiNativeAdView. A single YumiNativeAdView corresponds to a single unified native ad. Each view used to display that ad's assets should be a child of the YumiNativeAdView object.
 
 1、The view hierarchy for a unified native ad that uses a LinearLayout to display its asset views might look like this：
@@ -158,9 +156,9 @@ private void showNativeAd() {
     }
 }
 ```
-3、Let's take a look at the individual tasks：
+3、Let's take a look at the individual tasks
 
-* before you show your native ads, please determine if native ads are expired：
+before you show your native ads, please determine if native ads are expired：
 ```java
 content.isExpired()
 ```
@@ -169,12 +167,7 @@ content.isExpired()
 | true        | expired     | this native ad has expired, showing ads that have expired will not generate revenue |
 | false       | not expired | this native ads are valid                                                           |
 
-* calls destroy() to destroy current content
-```java
-content.destroy() // note, this method is belong to NativeContent not to YumiNative
-```
-
-* Inflate the layout
+Inflate the layout
 
 ```java
 // Inflate XML layout，Its outermost node is YumiNativeAdView
@@ -183,7 +176,7 @@ YumiNativeAdView adView = (YumiNativeAdView) getLayoutInflater().inflate(R.layou
 
 In this example, we're inflating an XML layout that contains views for displaying a unified native ad and then locating a reference to the YumiNativeAdView. 。
 
-* Populate and register the asset views
+Populate and register the asset views
 
 This sample code locates the view used to display the headline, sets its text using the string asset provided by the ad object, and registers it with the YumiNativeAdView object：
 
@@ -200,7 +193,7 @@ if (content.getTitle() != null) {
 ```
 This process of locating the view, setting its value, and registering it with the ad view class should be repeated for each of the assets provided by the native ad object that the app will display.
 
- * Register the native ad object：
+Register the native ad object：
 
 This final step registers the native ad object with the view that's responsible for displaying it：
 
@@ -220,7 +213,7 @@ adView.setNativeAd(content);
 ```
 The MediaContent is a special View designed to display the main media asset. It has the following behavior：
 
-* If the loaded ad has a video asset, the video is buffered and starts playing inside the mediacontent.
+If the loaded ad has a video asset, the video is buffered and starts playing inside the mediacontent.
 
 2、The following NativeContent interface can be used to determine whether the current NativeContent object has video material：
 
@@ -237,8 +230,11 @@ YumiNativeAdVideoController nativeAdVideoController = content.getNativeAdVideoCo
 ```
 This method always returns a YumiNativeAdVideoController object, even when no video asset is present in the ad。
 
-YumiNativeAdVideoController offers these methods for querying video state：
- *  getAspectRatio() - Returns the aspect ratio of the video (width/height), or zero if no video asset is present。
+YumiNativeAdVideoController offers these methods for querying video state
+```java
+getAspectRatio();
+```
+It returns the aspect ratio of the video (width/height), or zero if no video asset is present。
 
 2、Apps can also use the YumiNativeAdVideoController.YumiVideoLifecycleCallbacks class to get notifications when events occur in the lifecycle of a video asset：
 
@@ -252,7 +248,7 @@ nativeAdVideoController.setVideoLifecycleCallbacks(
     });
 ```
 
- **Implement in Activity lifecycle:**
+ **Implement in Activity lifecycle**
 
 ```java
 @Override

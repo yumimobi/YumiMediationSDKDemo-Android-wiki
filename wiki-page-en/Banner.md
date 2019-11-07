@@ -56,7 +56,7 @@ interface IYumiBannerListener {
     void onBannerClicked();
     // This method is fired when the ad is closed, and calling the dismissBanner() method does not trigger this method.
     void onBannerClosed();
-};
+}
 ```
 
 ## Other methods
