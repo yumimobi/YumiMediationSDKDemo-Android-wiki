@@ -1,5 +1,3 @@
-# YumiMediationSDK-Android
-> This guide is for publishers who want to monetize an Android app with Yumi Mobile Ads SDK. 
 ## [GetStarted](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/GetStarted)
 - [Prerequisites](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/GetStarted#Prerequisites)
 
