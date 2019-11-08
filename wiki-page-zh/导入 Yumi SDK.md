@@ -191,7 +191,7 @@ google_play_service 工程非必加，部分平台广告需要 google_play_servi
 <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 ```
 
-## Proguard
+## 防止混淆
 如果您的工程需要混淆编译， 请在混淆文件内增加以下内容。
 
 ```java
@@ -202,4 +202,4 @@ google_play_service 工程非必加，部分平台广告需要 google_play_servi
 
 <b>重要提示：</b>如果你有接入其他广告平台，请根据我们提供的三方平台文档设置三方平台混淆配置，请[查看](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/tree/master/docs/YumiMediationSDK%20-%20Mediation%20List(zh-cn)%20.md)。
 
-获取 [Demo]([GetDemo](https://github.com/yumimobi/YumiMediationSDKDemo-Android))
+获取 [Demo](https://github.com/yumimobi/YumiMediationSDKDemo-Android)

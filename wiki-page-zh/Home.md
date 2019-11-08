@@ -4,6 +4,7 @@
 ## [导入 Yumi SDK](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/wiki/%E5%AF%BC%E5%85%A5-Yumi-SDK)
 - [Android Studio 接入](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/wiki/%E5%AF%BC%E5%85%A5-Yumi-SDK#Android-Studio-%E6%8E%A5%E5%85%A5)
 - [Eclipse 接入](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/wiki/%E5%AF%BC%E5%85%A5-Yumi-SDK#Eclipse-%E6%8E%A5%E5%85%A5)
+- [防止混淆](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/wiki/%E5%AF%BC%E5%85%A5-Yumi-SDK#%E9%98%B2%E6%AD%A2%E6%B7%B7%E6%B7%86)
 
 ## 广告形式
 - [Banner](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/wiki/Banner)
