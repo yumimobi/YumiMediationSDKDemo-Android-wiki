@@ -19,5 +19,3 @@
 - [Mediation Test Suite](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/Debugging#Mediation-Test-Suite)
 - [Test ID](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/Debugging#Test-ID)
 - [Q&A](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/Debugging#QA)
-
-https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/wiki/%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A
