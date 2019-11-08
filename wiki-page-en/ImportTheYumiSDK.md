@@ -1,4 +1,3 @@
-# Import the Yumi SDK
 ## Android Studio
 
 add YumiMediationSDK and other network adapters maven url to project's build.gradle

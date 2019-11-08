@@ -1,5 +1,3 @@
-# Native
-
 ## Initialization and request
 ```java
 // Create a native ad option for custom style. The following is the default style. Details are discussed in latter.

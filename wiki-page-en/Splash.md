@@ -1,5 +1,3 @@
-# Splash
-
 ## Initialization and request
 
 ```java

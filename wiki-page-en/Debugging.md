@@ -1,5 +1,3 @@
-# Tools and Debugging
-
 ## Mediation Test Suite
 
 YUMI SDK provideds a test mode to test your 3rd-party Integrations.

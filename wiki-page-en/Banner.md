@@ -1,5 +1,3 @@
-# Banner
-
 ## Initialization and request
 ```java
 // Creates a YumiBanner object
