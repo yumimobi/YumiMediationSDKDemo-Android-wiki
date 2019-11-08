@@ -1,4 +1,3 @@
-# 导入 Yumi SDK
 ## Android Studio 接入
 
 配置聚合主包及各 Network
@@ -64,8 +63,6 @@ dependencies {
 ｝
 ```
 
-> 最新版本号，请[查看](https://github.com/yumimobi/YumiMediationSDKDemo-Android#latest-version)
-
 > 聚合平台Adapter详细说明，请[查看](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/tree/master/docs/YumiMediationSDK%20-%20Mediation%20List(zh-cn)%20.md)
 
 添加可选权限，可选权限可以提升广告填充率及广告转化效果。
@@ -87,7 +84,7 @@ dependencies {
 
 **第一步：下载并添加聚合SDK：**
 
->[SDK 下载列表](https://github.com/yumimobi/YumiMediationSDKDemo-Android/blob/master/docs/YumiMediationSDK%20for%20Android%20Download%20Page.md)
+>[SDK 下载列表](https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/tree/master/docs/YumiMediationSDK%20for%20Android%20Download%20Page.md)
 
 玉米移动广告需要的lib文件均放在 ..\YumiMobi_SDK_AndroidEclipse_Example\lib 文件夹下：
 
@@ -101,7 +98,7 @@ dependencies {
 
 使用时在工程的根目录下创建 libs 文件夹，将 YumiMobi_Android_vX.X.X.jar 添加到创建好的 libs 文件中。
 
-<img src="document\image01.jpg" alt="img1">
+<img src="https://github.com/yumimobi/YumiMediationSDKDemo-Android-wiki/blob/master/docs/document/image01.jpg" alt="img1">
 
 可以视需求添加 android-support-v4.jar、android-support-v7-appcompat.jar 到 libs 文件中，需要用到 V4 或 V7 包时必须使用我们提供的 jar。
 
