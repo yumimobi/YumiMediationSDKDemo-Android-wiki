@@ -1,5 +1,3 @@
-# Interstitial
-
 ## Initialization and request
 
 ```java

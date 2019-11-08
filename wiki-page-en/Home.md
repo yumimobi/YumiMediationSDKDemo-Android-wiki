@@ -1,4 +1,3 @@
-
 # YumiMediationSDK-Android
 > This guide is for publishers who want to monetize an Android app with Yumi Mobile Ads SDK. 
 ## [GetStarted](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/GetStarted)
@@ -7,7 +6,7 @@
 ## [Import the Yumi SDK](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/ImportTheYumiSDK)
 - [Android Studio](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/ImportTheYumiSDK#Android-Studio)
 - [Eclipse](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/ImportTheYumiSDK#Eclipse)
-
+- [Proguard](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/ImportTheYumiSDK#Proguard)
 ## Ad Formats
 - [Banner](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/Banner)
 - [Interstitial](https://github.com/yumimobi/YumiMediationSDKDemo-Android/wiki/Interstitial)

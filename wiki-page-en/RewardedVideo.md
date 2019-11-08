@@ -1,5 +1,3 @@
-# Rewarded Video
-
 ## Initialization and request
 
 ```java
